@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+.navigationbar{
+    height: 75px;
+    background-color: #DAAC00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.dogpic{
+    width: 300px;
+    margin-left: 100px;
+}
+.heroheading{
+    font-size: 52px;
+    font-weight: 600;
+    color: white;
+}
+.desc{
+    width: 500px;
+    color: white;
+}
+.buttons{
+    margin-top: 20px;
+}
+.contactus{
+    background-color: #00BDC9;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ourservices{
+    background-color: #FCC302;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
